@@ -6,7 +6,7 @@ const Home = () =>{
   return (
     <>
     <Head>
-      <title>hello :)</title>
+      <title>Bryan Avila | Portfolio</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Head>
       <div className="doodle">

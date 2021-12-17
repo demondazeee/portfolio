@@ -15,7 +15,7 @@ const HeroContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8.4rem;
+    gap: 2.4rem;
 `
 const HeroImageContainer = styled.div`
     pointer-events: none;
@@ -23,6 +23,7 @@ const HeroImageContainer = styled.div`
 
 const HeroContentContainer = styled.div`
     text-align: center;
+    margin-bottom: 4.2rem;
 `
 
 const HeroHeading = styled.h2`
@@ -35,10 +36,27 @@ const HeroDescription = styled.p`
     font-weight: 600;
 `
 
-const Anchor = styled.a`
-    font-size: 2rem;
+const HeroLinksContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
 `
 
+const HeroLinks = styled.ul`
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+`
+
+const HeroLinksContentContainer = styled.div`
+
+`
+
+const HeroList = styled.li`
+    cursor: pointer;
+`
 
 const Hero = () =>{
     return (
@@ -51,12 +69,37 @@ const Hero = () =>{
                <HeroContentContainer>
                    <HeroHeading>Hello! my name is bryan :)</HeroHeading>
                    
-                   <HeroDescription>Im a automation tester with experience on using Selenium and Cypress and Web Dev hobbyist with some experience on tech stack like NestJS, React & NextJS</HeroDescription>
+                   <HeroDescription>Im a automation tester with experience on using Selenium and Cypress and a Self-Taught FullStack dev with some experience on tech stack like NestJS, React & NextJS</HeroDescription>
                </HeroContentContainer>
 
-               {/* <Link href='/about'>
-                    <Anchor>View Projects</Anchor>
-               </Link> */}
+                <HeroLinksContainer>
+                    <HeroLinksContentContainer>
+                        <HeroDescription>Let’s collaborate</HeroDescription>
+                    </HeroLinksContentContainer>
+                    <HeroLinks>
+                        <HeroList>
+                            <Link href='https://www.linkedin.com/in/bryan-avila-b2a2a3137/'>
+                                <a>
+                                    <Image src='/linkedin.svg' alt="linkedin image" width={50} height={50} />
+                                </a>
+                            </Link>
+                        </HeroList>
+                        <HeroList>
+                            <Link href='https://github.com/demondazeee'>
+                                <a>
+                                    <Image src='/github.svg' alt="linkedin image" width={50} height={50} />
+                                </a>
+                            </Link>
+                        </HeroList>
+                        <HeroList>
+                            <Link href='https://twitter.com/demondazeee'>
+                                <a>
+                                    <Image src='/twitter.svg' alt="linkedin image" width={50} height={50} />
+                                </a>
+                            </Link>
+                        </HeroList>
+                    </HeroLinks>
+                </HeroLinksContainer>
             </HeroContainer>
         </Section>
     )

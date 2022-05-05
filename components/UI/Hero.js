@@ -69,32 +69,32 @@ const Hero = () =>{
                <HeroContentContainer>
                    <HeroHeading>Hello! my name is bryan :)</HeroHeading>
                    
-                   <HeroDescription>Im a automation tester with experience on using Selenium and Cypress and a Self-Taught FullStack dev with some experience on tech stack like NestJS, React & NextJS</HeroDescription>
+                   <HeroDescription>I'm an automation tester with experience on using Python and Selenium and I'm a Self-Taught FullStack dev with some experience on tech stack like NestJS, React & NextJS</HeroDescription>
                </HeroContentContainer>
 
                 <HeroLinksContainer>
                     <HeroLinksContentContainer>
-                        <HeroDescription>Let’s collaborate</HeroDescription>
+                        <HeroDescription>Let's collaborate</HeroDescription>
                     </HeroLinksContentContainer>
                     <HeroLinks>
                         <HeroList>
                             <Link href='https://www.linkedin.com/in/bryan-avila-b2a2a3137/'>
-                                <a>
+                                <a target="_blank" rel="noopener noreferrer">
                                     <Image src='/linkedin.svg' alt="linkedin image" width={50} height={50} />
                                 </a>
                             </Link>
                         </HeroList>
                         <HeroList>
                             <Link href='https://github.com/demondazeee'>
-                                <a>
+                                <a target="_blank" rel="noopener noreferrer">
                                     <Image src='/github.svg' alt="linkedin image" width={50} height={50} />
                                 </a>
                             </Link>
                         </HeroList>
                         <HeroList>
-                            <Link href='https://twitter.com/demondazeee'>
-                                <a>
-                                    <Image src='/twitter.svg' alt="linkedin image" width={50} height={50} />
+                            <Link href='https://drive.google.com/file/d/12GkOvO9F6QJHyEjGdNVovac8tY28ZDuk/view?usp=sharing' >
+                                <a target="_blank" rel="noopener noreferrer">
+                                    <Image src='/pdf.png' alt="linkedin image" width={50} height={50} />
                                 </a>
                             </Link>
                         </HeroList>

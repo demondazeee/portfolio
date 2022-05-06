@@ -69,12 +69,12 @@ const Hero = () =>{
                <HeroContentContainer>
                    <HeroHeading>Hello! my name is bryan :)</HeroHeading>
                    
-                   <HeroDescription>I'm an automation tester with experience on using Python and Selenium and I'm a Self-Taught FullStack dev with some experience on tech stack like NestJS, React & NextJS</HeroDescription>
+                   <HeroDescription>I&apos;m an automation tester with experience on using Python and Selenium and I&apos;m a Self-Taught FullStack dev with some experience on tech stack like NestJS, React & NextJS</HeroDescription>
                </HeroContentContainer>
 
                 <HeroLinksContainer>
                     <HeroLinksContentContainer>
-                        <HeroDescription>Let's collaborate</HeroDescription>
+                        <HeroDescription>Let&apos;s collaborate</HeroDescription>
                     </HeroLinksContentContainer>
                     <HeroLinks>
                         <HeroList>

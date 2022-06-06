@@ -78,21 +78,21 @@ const Hero = () =>{
                     </HeroLinksContentContainer>
                     <HeroLinks>
                         <HeroList>
-                            <Link href={process.env.NEXT_PUBLIC_LINKED_LINK}>
+                            <Link href='https://www.linkedin.com/in/bryanavila44/'>
                                 <a target="_blank" rel="noopener noreferrer">
                                     <Image src='/linkedin.svg' alt="linkedin image" width={50} height={50} />
                                 </a>
                             </Link>
                         </HeroList>
                         <HeroList>
-                            <Link href={process.env.NEXT_PUBLIC_GITHUB_LINK}>
+                            <Link href='https://github.com/demondazeee'>
                                 <a target="_blank" rel="noopener noreferrer">
                                     <Image src='/github.svg' alt="linkedin image" width={50} height={50} />
                                 </a>
                             </Link>
                         </HeroList>
                         <HeroList>
-                            <Link href={process.env.NEXT_PUBLIC_RESUME_LINK} >
+                            <Link href='https://drive.google.com/file/d/1i22SJeadnfDSGx0gDYTsJw_P9u02BSbp/view' >
                                 <a target="_blank" rel="noopener noreferrer">
                                     <Image src='/pdf.png' alt="linkedin image" width={50} height={50} />
                                 </a>
